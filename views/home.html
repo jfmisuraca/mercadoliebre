@@ -4,7 +4,12 @@
     <title>Mercado Liebre</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="../public/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
   </head>
   <header>
     <div class="header-container">
@@ -13,89 +18,100 @@
       </div>
       <div class="search-bar">
         <input type="text" placeholder="Buscar productos.">
-        <button type="submit">Buscar</button>
+        <button type="submit"><i class="fas fa-search"></i></button>
       </div>
     </div>
-    <div>
-      Compra en cuotas y sin tarjeta
+    <div class="cuotas">
+      <i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin tarjeta
     </div>
     <nav>
       <ul>
         <li><a href="#Ofertas">Ofertas</a></li><li><a href="#Tiendas_oficiales">Tiendas oficiales</a></li><li><a href="#Vender">Vender</a></li><li><a href="Ayuda">Ayuda</a></li>
       </ul>
       <ul>
-        <li><a href="Crea_tu_cuenta">Crea tu cuenta</a></li><li><a href="Ingresa">Ingresa</a></li><li><a href="Mis compras">Mis compras</a></li>
+        <li><a href="Crea_tu_cuenta">Crea tu cuenta <i class="fas fa-id-card"></i></a></li><li><a href="Ingresa">Ingresa <i class="fas fa-sign-in-alt"></i></a></li><li><a href="Mis compras">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
       </ul>
+      <br>
+      <div class="centrado">
+        <div class="burger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
     </nav>
+    <br>
   </header>
   <body>
     <img src="../public/images/banner.jpg" width="100%" alt="banner">
     <main>
       <section>
-        <h3>Basado en tu ultima visita</h3>
+        <h3 class="titulares">Basado en tu ultima visita</h3>
         <article>
           <img src="../public/images/cafetera.jpg" width="100%" alt="cafetera">
-          <p>$6.770</p>
-          <p>40% OFF</p>
-          <p><b>Cafetera Moulinex</b></p>
+          <p class="precios">$6.770</p>
+          <p class="descuentos">40% OFF</p>
+          <p class="descripciones"><b>Cafetera Moulinex</b></p>
         </article>
         <article>
           <img src="../public/images/macbook.jpg" width="100%" alt="notebook">
-          <p>$230.000</p>
-          <p>20% OFF</p>
-          <p><b>MacBook Pro 2019</b></p>
+          <p class="precios">$230.000</p>
+          <p class="descuentos">20% OFF</p>
+          <p class="descripciones"><b>MacBook Pro 2019</b></p>
         </article>
         <article>
           <img src="../public/images/samsung-cel.jpg" width="100%" alt="celular">
-          <p>$70.500</p>
-          <p>10% OFF</p>
-          <p><b>Samsung Galaxy S10</b></p>
+          <p class="precios">$70.500</p>
+          <p class="descuentos">10% OFF</p>
+          <p class="descripciones"><b>Samsung Galaxy S10</b></p>
         </article>
         <article>
           <img src="../public/images/samsung-tv.jpg" width="100%" alt="televisor">
-            $23.200
-            5% OFF
-            SmartTv Samsung 43"
+          <p class="precios">$23.200</p>
+          <p class="descuentos">5% OFF</p>
+          <p class="descripciones"><b>SmartTv Samsung 43"</b></p>
         </article>
       </section>
       <section>
-        <h3>Seccion de Ofertas</h3>
+        <h3 class="titulares">Seccion de Ofertas</h3>
         <article>
           <img src="../public/images/cafetera.jpg" width="100%" alt="cafetera">
-            $6.770
-            40% OFF
-            Cafetera Moulinex
+          <p class="precios">$6.770</p>
+          <p class="descuentos">40% OFF</p>
+          <p class="descripciones"><b>Cafetera Moulinex</b></p>
         </article>
         <article>
           <img src="../public/images/macbook.jpg" width="100%" alt="notebook">
-            $230.000
-            20% OFFMacBook Pro 2019
+          <p class="precios">$230.000</p>
+          <p class="descuentos">20% OFF</p>
+          <p class="descripciones"><b>MacBook Pro 2019</b></p>
         </article>
         <article>
           <img src="../public/images/samsung-cel.jpg" width="100%" alt="celular">
-            $70.500
-            10% OFF
-            Samsung Galaxy S10
+          <p class="precios">$70.500</p>
+          <p class="descuentos">10% OFF</p>
+          <p class="descripciones"><b>Samsung Galaxy S10</b></p>
         </article>
         <article>
           <img src="../public/images/samsung-tv.jpg" width="100%" alt="televisor">
-            $23.200
-            5% OFF
-            SmartTv Samsung 43"
+          <p class="precios">$23.200</p>
+          <p class="descuentos">5% OFF</p>
+          <p class="descripciones"><b>SmartTv Samsung 43"</b></p>
 
       </section>
     </main>
     <footer>
-<section>
-  <h4>Paga con tarjeta o en efectivo</h4>
-        Con Mercado Liebre Cash, tenes cuoptas sin interes con tarjeta o efectivo en puntos de pago. Y siempre es seguro!
-</section>
       <section>
-        <h4>Envio gratis desde $2.500</h4>
+        <i class="fas fa-credit-card icon"></i>
+        <h4 class="gris_oscuro">Paga con tarjeta o en efectivo</h4>
+        Con Mercado Liebre Cash, tenes cuoptas sin interes con tarjeta o efectivo en puntos de pago. Y siempre es seguro!
+      </section>
+      <section>
+        <i class="fas fa-gift icon"></i>
+        <h4 class="gris_oscuro">Envio gratis desde $2.500</h4>
         Solo por estar registrad@ en Mercado Liebre tenes envios gratis en miles de productos. Es un beneficio de Mercado Puntos.
       </section>
       <section>
-        <h4>Seguridad, de principio a fin</h4>
+        <i class="fas fa-user-shield icon"></i>
+        <h4 class="gris_oscuro">Seguridad, de principio a fin</h4>
         No te gusta? Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estas siempre protegid@.
       </section>
       <section>
