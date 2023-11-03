@@ -33,6 +33,10 @@ ul {
 
 a {
   text-decoration: none;
+  color: #222222;
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 17px;
 }
 
 img {
@@ -40,11 +44,15 @@ img {
 }
 
 .burger-menu {
+  display: block;
+  margin: auto;
+  max-width: 50;
   color: white;
   text-align: center;
-  background-color: #1259c3;
-  border-radius: 7px;
+  background-color: #03264C;
+  border-radius: 8px;
   padding: 12px ;
+  font-size: 18px;
 }
 
 .centrado{
@@ -53,10 +61,11 @@ img {
 
 .cuotas {
   text-align: center;
+  font-weight: 400;
 }
 
 .logo-container {
-  width: 50vw;
+  width: 40vw;
 }
 
 .search-bar {
@@ -150,6 +159,15 @@ footer {
 
 /* version tablet */
 @media (min-width: 361px) {
+  .header-container{
+    border: dotted 2px red;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cuotas{
+    max-width: 350px;
+    text-align: right;
+  }
   .burger-menu{
     display: none;
   }
